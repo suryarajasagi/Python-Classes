@@ -2,7 +2,6 @@
 
 string = input("Enter a sentence: ")
 length = len(string)
-j = 0
 
 brk_str = string.split()
 
