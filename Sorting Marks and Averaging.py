@@ -18,13 +18,11 @@ while cond:
 sorted_marks = sorted(marks)
 print(sorted_marks)
 
-average = sum / i + 1
+average = sum / i
 print(average)
 count = 0
 
 for j in marks:
-    k = 0
-    if marks[k] > average:
+    if j > average:
         count += 1
-    k += 1
 print(count)
