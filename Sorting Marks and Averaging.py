@@ -19,10 +19,10 @@ sorted_marks = sorted(marks)
 print(sorted_marks)
 
 average = sum / i
-print(average)
+print("The average is: ", average)
 count = 0
 
-for j in marks:
+for j in sorted_marks:
     if j > average:
         count += 1
-print(count)
+print("No. of students who scored above the average are: ", count)
