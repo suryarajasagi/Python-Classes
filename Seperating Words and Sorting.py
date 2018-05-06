@@ -5,5 +5,8 @@ length = len(string)
 
 brk_str = string.split()
 
-for i in range(0,len(brk_str)):
-    print(sorted(brk_str[i]),len(brk_str[i]))
+for i in range(0, len(brk_str)):
+    sort_str = sorted(brk_str[i])
+    for j in range(0, len(sort_str)):
+        print(sort_str[j], sep="", end="")
+    print("\t", len(brk_str[i]))
