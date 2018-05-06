@@ -2,7 +2,7 @@
 
 number = str(input("Enter a number: "))
 
-if (len(number) == 10):
+if (len(number) == 10 and number.isdigit()):
     print("It's a valid mobile number..")
 else:
     print("It's not a valid mobile number..")
